@@ -3,8 +3,8 @@ A complete Guide to Install Frappe Bench in Ubuntu 22.04 LTS and install Frappe/
 
 ### Pre-requisites 
 
-      Python 3.6+
-      Node.js 14+
+      Python 3.10+
+      Node.js 18+
       Redis 5                                       (caching and real time updates)
       MariaDB 10.3.x / Postgres 9.5.x               (to run database driven apps)
       yarn 1.12+                                    (js dependency manager)
@@ -91,12 +91,12 @@ Now press (Ctrl-X) to exit
     
     sudo apt-get install redis-server
 
-### STEP 9 install Node.js 14.X package
+### STEP 9 install Node.js 18.X package
 
     sudo apt install curl 
     curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
     source ~/.profile
-    nvm install 14.15.0  
+    nvm install 18 
 
 ### STEP 10  install Yarn
 
