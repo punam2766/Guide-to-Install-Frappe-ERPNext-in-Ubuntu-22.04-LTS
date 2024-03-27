@@ -135,6 +135,7 @@ Now press (Ctrl-X) to exit
     bench get-app https://github.com/frappe/erpnext --branch version-13
 
     bench --site dcode.com install-app erpnext
+    bench migrate
     
     bench start
 
