@@ -128,6 +128,8 @@ Now press (Ctrl-X) to exit
     
     bench use dcode.com
 
+    bench migrate
+
 ### STEP 15 install ERPNext latest version in bench & site
 
     bench get-app erpnext --branch version-13
